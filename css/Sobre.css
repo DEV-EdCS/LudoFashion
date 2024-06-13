@@ -71,8 +71,21 @@ h1 {
     margin: 3%;
 }
 
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3% 3%;
+}
+
 p {
-    margin-left: 3%;
-    margin-right: 3%;
+    text-indent: 1px;
+    margin-right: 5%;
     text-align: justify;
+}
+
+.banner {
+    width: 100%;
+    margin-right: 6%;
+    height: auto;
+    background-repeat: no-repeat;
 }
