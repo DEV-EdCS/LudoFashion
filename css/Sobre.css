@@ -67,65 +67,12 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-#banner {
-    width: 100%;
-    background-image: url("../imgs/Banner_rosa.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    position: relative;
+h1 {
+    margin: 3%;
 }
 
-#txt-banner {
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    text-align: center;
-}
-
-.conteudo h1 {
-    text-align: center;
-    margin: 1rem;
-}
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-}
-
-.card {
-    border: 1px solid var(--cor-secundaria);
-    border-radius: 8px;
-    background-color: var(--cor-secundaria);
-}
-
-.card-img img {
-    border-radius: 8px 8px 00;
-}
-
-.card-container {
-    color: var(--branco);
-    padding: 1rem;
-    text-align: center;
-}
-
-footer {
-    background-color: var(--cor-secundaria);
-    color: var(--branco);
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-footer .social-media {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
+p {
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: justify;
 }
