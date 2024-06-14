@@ -72,15 +72,16 @@ h1 {
 }
 
 .paragrafo{
+    text-align: justify;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 3% 3%;
 }
 
 p {
-    text-indent: 1px;
     margin-right: 5%;
-    text-align: justify;
+    text-indent: 1px;
+  
 }
 
 .banner {
