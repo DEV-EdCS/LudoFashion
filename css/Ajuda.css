@@ -66,3 +66,54 @@ nav {
 nav a:first-child {
     border-right: 1px solid var(--preto);
 }
+
+h1 {
+    margin: 40px;
+}
+
+.accordions {
+    margin-left: 30px;
+    position: absolute;
+    width: 600px;
+    border:none
+}
+
+.accordion-item input {
+    display: none;
+    
+}
+
+.accordion-item label {
+    font-size: 20px;
+    color: var(--branco);
+    display: flex;
+    border: 1px solid #ffffff;
+    background: #F464C3;
+    cursor: pointer;
+    padding: 5px 3px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.accordion-content {
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+}
+
+[id^=accordion]:checked~.accordion-content {
+    height: 120px;
+    margin: 20px;
+    font-size: 120%;
+}
+
+.help-img {
+    width: 100%;
+    margin-right: 6%;
+    height: auto;
+    background-repeat: no-repeat;
+}
