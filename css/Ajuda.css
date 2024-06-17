@@ -68,19 +68,19 @@ nav a:first-child {
 }
 
 h1 {
-    margin: 40px;
+    margin: 100px;
 }
 
 .accordions {
-    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
     position: absolute;
-    width: 600px;
-    border:none
+    border: none
 }
 
 .accordion-item input {
     display: none;
-    
 }
 
 .accordion-item label {
@@ -111,9 +111,15 @@ h1 {
     font-size: 120%;
 }
 
+#img-redonda {
+    border-radius: 50%;
+}
+
 .help-img {
-    width: 100%;
-    margin-right: 6%;
-    height: auto;
+    margin-left: 100px;
     background-repeat: no-repeat;
+}
+
+.information {
+    text-align: end;
 }
