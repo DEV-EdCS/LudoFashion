@@ -79,6 +79,7 @@ h1 {
 }
 
 .categoria {
+    padding: 2%;
     border-radius: 30px;
     background-color: var(--cor-primaria);
     font-family: "Oswald", sans-serif;
