@@ -67,7 +67,16 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
+.titulo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.list {
+}
+
 h1 {
+    font-family: "Oswald", sans-serif;
     text-align: center;
     margin-top: 40px;
 }
@@ -80,6 +89,8 @@ h1 {
 }
 
 .categoria {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
     margin: 30px;
     gap: 20px;
     display: grid;
@@ -88,5 +99,7 @@ h1 {
 }
 
 .adition {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
     text-align: center;
 }
