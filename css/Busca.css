@@ -6,15 +6,12 @@
     --preto: black;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-}
-
 * {
-    padding: 0;
+    font-family: "Oswald-medium", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: var(--preto);
 }
 
 header {
@@ -65,4 +62,29 @@ nav {
 
 nav a:first-child {
     border-right: 1px solid var(--preto);
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.part1 {
+    background-color: var(--cor-terciaria);
+    width: 90%;
+}
+
+.part2 {
+display: flex;
+padding: 1.5rem;
+text-align: center;
+}
+
+h1 {
+    margin: 7%;
+}
+
+.titulo1 {
+    margin: 1%;
+    padding: 0.75%;
 }
