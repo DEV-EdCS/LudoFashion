@@ -62,19 +62,19 @@
                 <p>Gerenciar e proteger sua conta</p>
             </div>
 
-            <div class="conteudo">
+            <form class="conteudo">
                 <div class="question">
-                    <p>Nome do usuário:</p>
-                    <p>Nome:</p>
-                    <p>Email:</p>
-                    <p>Número de telefone:</p>
-                    <p>Sexo:</p>
-                    <p>Nome/CPF/Data de nascimento:</p>
+                    <label for="nome_usuario">Nome de usuário:</label>
+                    <label for="nome">Nome:</label>
+                    <label for="email">Email:</label>
+                    <label for="phone">Número de telefone:</label>
+                    <label for="sexo">Sexo:</label>
+                    <label for="infos">Nome/CPF/Data de Nascimento:</label>
                 </div>
                 <div class="resposta">
-                    <p>Fulano123</p>
+                    <input type="text" name="nome_usuario" value="Fulano123">
 
-                    <input type="text" name="nome" id="nome" value="Fulano"><br>
+                    <input type="text" name="nome" id="nome" value="Fulano">
 
                     <input type="text" name="email" id="email" value="fulanocosta@gmail.com">
                     <input type="submit" value="Editar">
@@ -96,7 +96,7 @@
 
                 </div>
                 <input type="submit" value="Gravar">
-            </div>
+            </form>
         </div>
     </section>
 </body>
