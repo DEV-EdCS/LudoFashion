@@ -67,12 +67,18 @@ nav a:first-child {
 .lista {
     margin: 4%;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
 }
 
 .part1 {
+    font-size: 22px;
     margin-top: 100px;
-    display: grid;
+}
+
+.options {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .titulo {
@@ -81,6 +87,7 @@ nav a:first-child {
 }
 
 .conteudo {
+    font-size: 28px;
     background-color: var(--cor-terciaria);
     display: grid;
     grid-template-columns: 18% 68% 14%;
