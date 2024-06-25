@@ -6,17 +6,12 @@
     --preto: black;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-}
-
 * {
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    padding: 0;
+    font-family: "Oswald-medium", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: var(--preto);
 }
 
 header {
@@ -69,27 +64,27 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-.logar {
-    border-radius: 10px;
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--cor-primaria);
-    margin: 200px 600px
+.lista {
+    margin: 4%;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
-.formulario {
-    text-align: left;
+.part1 {
+    margin-top: 100px;
+    display: grid;
 }
 
-.formatar {
-    margin: 20px;
-    
+.titulo {
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
-.botao {
-    border-radius: 10px;
-    padding: 0.75rem;
-    color: var(--branco);
-    background-color: var(--preto);
-    cursor: pointer;
+.conteudo {
+    background-color: var(--cor-terciaria);
+    display: grid;
+    grid-template-columns: 18% 68% 14%;
+    padding: 30px;
 }
+
+

@@ -73,7 +73,6 @@ nav a:first-child {
 .part1 {
     margin-top: 100px;
     display: grid;
-    gap: 2rem;
 }
 
 .titulo {
@@ -81,11 +80,10 @@ nav a:first-child {
     margin-bottom: 5%;
 }
 
-.conteudo{
+.conteudo {
     background-color: var(--cor-terciaria);
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 1.5rem;
     padding: 30px;
 }
 
