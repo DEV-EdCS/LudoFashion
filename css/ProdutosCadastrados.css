@@ -63,3 +63,37 @@ nav {
 nav a:first-child {
     border-right: 1px solid var(--preto);
 }
+
+.topo {
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabela {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-color: transparent;
+    background-color: #F464C3;
+    padding: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border: 2px solid;
+}
+
+.butao {
+    background-color: var(--cor-primaria);
+    color: var(--branco);
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
