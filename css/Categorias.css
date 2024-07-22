@@ -68,9 +68,12 @@ nav a:first-child {
 }
 
 .titulo {
-    font-size: medium;
-   display: grid;
-   grid-template-columns: var(2, 1fr);
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    gap: 1rem;
 }
 
 h1 {
@@ -94,8 +97,11 @@ h1 {
 }
 
 .adition {
+    display: inline-flex;
+    align-items: center;
+    grid-column: 2;
     margin-top: 20px;
     font-family: "Oswald", sans-serif;
     font-size: 25px;
-    text-align: center;
+    gap: 1rem;
 }
