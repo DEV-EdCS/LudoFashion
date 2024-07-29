@@ -70,11 +70,15 @@ nav a:first-child {
 }
 
 .logar {
+    width: 50%;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 2rem;
     background-color: var(--cor-primaria);
-    margin: 200px 600px
+    margin: 25%;
+
 }
 
 .formulario {
@@ -93,3 +97,4 @@ nav a:first-child {
     background-color: var(--preto);
     cursor: pointer;
 }
+
