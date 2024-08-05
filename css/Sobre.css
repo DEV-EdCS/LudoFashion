@@ -87,6 +87,7 @@ p {
 .banner {
     width: 100%;
     margin-right: 6%;
+    border-radius: 10rem;
     height: auto;
     background-repeat: no-repeat;
 }
@@ -109,4 +110,13 @@ footer .social-media {
     justify-content: center;
     gap: 2rem;
     margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 900px)  {
+    .paragrafo {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
 }

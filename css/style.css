@@ -134,3 +134,16 @@ footer .social-media {
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+li {
+    color: var(--branco);
+    list-style-type: none;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.rodape-text {
+    text-align: left;
+}
