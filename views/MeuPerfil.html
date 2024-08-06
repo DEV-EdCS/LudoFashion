@@ -39,19 +39,19 @@
 <body>
     <section class="lista">
         <div class="part1">
-            <div>
+            <div class="options1">
                 <a href=""><img src="../imgs/Icon_user.png" alt="" width="40px"></a>
                 <a href="" title="Minha Conta"><b>Minha Conta</b></a>
             </div>
-            <div>
+            <div class="options2">
                 <a href=""><img src="../imgs/icon_favorite.png" alt="" width="40px"></a>
-                <a href="" title="Lista de Desejos"><b>Lista de Desejos</b></a>
+                <a href="../views/ListadeDesejo.html" title="Lista de Desejos"><b>Lista de Desejos</b></a>
             </div>
-            <div>
+            <div class="options3">
                 <a href=""><img src="../imgs/icon_categorias.png" alt="" width="40px"></a>
                 <a href="" title="Categorias"><b>Categorias</b></a>
             </div>
-            <div>
+            <div class="options4">
                 <a href=""><img src="../imgs/icon_invetario.png" alt="" width="40px"></a>
                 <a href="" title="Produtos"><b>Produtos</b></a>
             </div>
@@ -64,41 +64,86 @@
 
             <form class="conteudo">
                 <div class="question">
-                    <label for="nome_usuario">Nome de usuário:</label>
                     <label for="nome">Nome:</label>
                     <label for="email">Email:</label>
                     <label for="phone">Número de telefone:</label>
-                    <label for="sexo">Sexo:</label>
-                    <label for="infos">Nome/CPF/Data de Nascimento:</label>
+                    <label for="cpf">CPF:</label>
+                    <label for="nascimento">Data de Nascimento</label>
                 </div>
                 <div class="resposta">
-                    <input type="text" name="nome_usuario" value="Fulano123">
+                    <input type="text" name="nome" id="nome" value="" required placeholder="Seu nome completo">
 
-                    <input type="text" name="nome" id="nome" value="Fulano">
+                    <input type="text" name="email" id="email" value="" required placeholder="Seu email">
 
-                    <input type="text" name="email" id="email" value="fulanocosta@gmail.com">
-                    <input type="submit" value="Editar">
+                    <input type="tel" name="phone" id="phone" value="" required placeholder="(xx) xxxxx-xxxx">
 
-                    <input type="text" name="phone" id="phone" value="(98) 9 3576-9232">
-                    <input type="submit" value="Editar">
+                    <input type="number" name="cpf" id="cpf" value="" required placeholder="Digite seu CPF">
 
-                    <fieldset>
-                        <input type="radio" name="sexo" id="masculino" value="Masculino">
-                        <label for="masculino">Masculino</label>
-                        <input type="radio" name="sexo" id="feminino" value="Feminino">
-                        <label for="feminino">Feminino</label>
-                        <input type="radio" name="sexo" id="outro" value="Outro">
-                        <label for="outro">Outro</label>
-                    </fieldset>
-
-                    <input type="text" name="infos" id="infos" value="Fulano Costa - 071.843.281-23 - 03/06/2000">
-                    <input type="submit" value="Editar">
+                    <input type="date" name="nascimento" id="nascimento" value="" required
+                        placeholder="Sua data de nascimento">
 
                 </div>
-                <input type="submit" value="Gravar">
+                <div class="modificar">
+                    <input class="btn-edit" type="submit" value="Editar">
+                    <input class="btn-envia" type="submit" value="Gravar">
+                </div>
             </form>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="rodape-text">
+                <h2>Institucional</h2>
+                <ul>
+                    <a href="">
+                        <li>Quem Somos?</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="rodape-text">
+                <h2>Ajuda</h2>
+                <ul>
+                    <a href="">
+                        <li>Central de ajuda</li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="">
+                        <li>Dúvidas</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="rodape-text">
+                <h2>Navegue Pelo Site</h2>
+                <ul>
+                    <a href="">
+                        <li>Roupas mais procuradas</li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="">
+                        <li>Principais marcas</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h2>Redes Sociais</h2>
+                <div class="social-media">
+                    <a href=""><img src="imgs/icon_whatsapp.png" title="Fale conosco via WhatsApp" alt="WhatsApp"
+                            width="30px"></a>
+                    <a href=""><img src="imgs/icon_instagram.png" title="Siga para mais novidades" alt="Instagram"
+                            width="30px"></a>
+                    <a href=""><img src="imgs/icon_facebook.png" title="Acompanhe as novidades no Face" alt="Facebook"
+                            width="30px"></a>
+                    <a href=""><img src="imgs/icon_twitter.png" title="Nosso perfil no X" alt="Twitter"
+                            width="30px"></a>
+                    <a href=""><img src="imgs/icon_tiktok.png" title="As trends do momento" alt="TikTok"
+                            width="30px"></a>
+                </div>
+            </div>
+        </div>
+        <p>© 2024 LudoFashion. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

@@ -67,18 +67,48 @@ nav a:first-child {
 .lista {
     margin: 4%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
 }
 
 .part1 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 100px;
+    margin-left: 30%
 }
 
-.options {
+.part2 {
+    margin-right: 10% 
+}
+
+.options1 {
     margin-bottom: 30px;
     display: flex;
     align-items: center;
+    gap: 0.5rem;
+    opacity: 0.4;
+}
+
+.options2 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.options3 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.4;
+}
+
+.options4 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.4;
 }
 
 .titulo {
