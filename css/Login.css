@@ -69,32 +69,54 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
-.logar {
-    width: 50%;
-    border-radius: 10px;
-    text-align: center;
+.login {
     display: flex;
-    justify-content: center;
-    padding: 2rem;
-    background-color: var(--cor-primaria);
-    margin: 25%;
-
+    flex-direction: column;
 }
 
-.formulario {
-    text-align: left;
+h1 {
+    text-align: center;
+}
+
+.logar {
+    background-color: #fdace0;
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: 5%;
+    margin-inline: 34%;
 }
 
 .formatar {
     margin: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    height: 2.3rem;
+    width: 25rem;
+    border: 1px solid #cfd8e0;
+    border-radius: 0.2rem;
+}
+
+.preencher {
+    padding: 1rem;
+}
+
+.opcoes {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .botao {
-    border-radius: 10px;
-    padding: 0.75rem;
+    padding: 1rem 4rem;
     color: var(--branco);
-    background-color: var(--preto);
+    background-color: #F464C3;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: bold;
     cursor: pointer;
 }
 
