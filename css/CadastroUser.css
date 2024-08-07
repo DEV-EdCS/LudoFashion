@@ -70,6 +70,7 @@ nav a:first-child {
     border-right: 1px solid var(--preto);
 }
 
+/* Formulário */
 .conteudo {
     background-color: #fdace0;
     border-radius: 2rem;
@@ -83,16 +84,42 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.formulario {
-    
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
 }
+
+.preencher {
+    height: 2.3rem;
+    border: 1px solid #cfd8e0;
+    border-radius: 0.2rem;
+}
+
+/* Enviar do formulário */
+
+.enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-enviar {
+    padding: 1rem 4rem;
+    color: var(--branco);
+    background-color: #F464C3;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 /* Estilização do footer */
 footer {
     background-color: var(--cor-secundaria);
     color: var(--branco);
-    position: absolute;
-    bottom:0%;
     width: 100%;
     text-align: center;
     padding: 1rem 0;
